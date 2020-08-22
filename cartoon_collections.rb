@@ -25,7 +25,7 @@ def find_the_cheese(ingredients)
   elsif ingredients.include?("gouda")
     "gouda"
   elsif ingredients.include?("camembert")
-    
+    "camembert"
   else
     
   end
