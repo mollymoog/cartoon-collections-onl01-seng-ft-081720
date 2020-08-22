@@ -20,6 +20,6 @@ end
 
 def find_the_cheese(ingredients)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheesy = ingredients.detect (cheese_types)
+  cheesy = ingredients.detect {|igr| igr = (cheese_types)}
 
 end
